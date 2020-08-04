@@ -13,7 +13,7 @@ To build this application on windows, there are some steps you have to change in
 
 3-After building you will face this error on your machine 
 
-Execution failed for task ':TMessagesProj:assembleAfatDebugTgVoipDex'.
+> Execution failed for task ':TMessagesProj:assembleAfatDebugTgVoipDex'.
 > A problem occurred starting process 'command 'D:\androidsdk/build-tools/29.0.3/dx''
 
 go to build.gradle and change the dxUtilPath like this
@@ -27,7 +27,7 @@ you may also want to add the java path to your dx.bat file, you just need to cha
 
 4-If you encounter this error 
  
- ':TMessagesProj:assembleAfatDebugTgVoipDex.> Process command 'E:\Program Files\Java\jdk1.8.0_152\jre\bin\javac' '
+> ':TMessagesProj:assembleAfatDebugTgVoipDex.> Process command 'E:\Program Files\Java\jdk1.8.0_152\jre\bin\javac' '
 
 go to gradle.build and find findJavaHome() methond change the original method to this, make sure that the javaPath point to your java directory on windows.
 
