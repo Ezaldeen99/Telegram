@@ -26,7 +26,8 @@ go to build.gradle and change the dxUtilPath like this
 you may also want to add the java path to your dx.bat file, you just need to change your java_exe path.
 
 4-If you encounter this error 
-':TMessagesProj:assembleAfatDebugTgVoipDex'.> Process 'command 'E:\Program Files\Java\jdk1.8.0_152\jre\bin\javac'' 
+ 
+ ':TMessagesProj:assembleAfatDebugTgVoipDex.> Process command 'E:\Program Files\Java\jdk1.8.0_152\jre\bin\javac' '
 
 go to gradle.build and find findJavaHome() methond change the original method to this, make sure that the javaPath point to your java directory on windows.
 
