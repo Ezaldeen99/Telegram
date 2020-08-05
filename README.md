@@ -5,7 +5,7 @@ This repo contains the official source code for [Telegram App for Android](https
 
 ## Building for Windows
 
-To build this application on windows, there are some steps you have to change in the original telegram gradle file before we start, if you are using linux or macOs skip this step
+Telegram source code doesn't support build on windows, to build this application on windows, there are some steps you have to change in the original telegram gradle file before we start, if you are using linux or macOs skip this step
 
 1- After downloading and install the android ndk, add `LOCAL_SHORT_COMMANDS: true` to `Android.mk` and `APP_SHORT_COMMANDS := true` to `Application.mk`  because of limitations on the number of characters a Windows command can handle.
 
